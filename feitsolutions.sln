@@ -1,22 +1,77 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.30114.105
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32811.315
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "API", "API\API.csproj", "{58F863BE-9CFE-4CF9-9725-C2FABAF40BCB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "API", "API\API.csproj", "{58F863BE-9CFE-4CF9-9725-C2FABAF40BCB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Client", "Client", "{CCB56524-E5BC-4E26-8DA3-0D27D5762056}"
+	ProjectSection(SolutionItems) = preProject
+		client\.browserslistrc = client\.browserslistrc
+		client\.editorconfig = client\.editorconfig
+		client\.gitignore = client\.gitignore
+		client\angular.json = client\angular.json
+		client\karma.conf.js = client\karma.conf.js
+		client\package-lock.json = client\package-lock.json
+		client\package.json = client\package.json
+		client\README.md = client\README.md
+		client\tsconfig.app.json = client\tsconfig.app.json
+		client\tsconfig.json = client\tsconfig.json
+		client\tsconfig.spec.json = client\tsconfig.spec.json
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{218CA575-2758-4A29-8483-A9D7FAB1F71A}"
+	ProjectSection(SolutionItems) = preProject
+		client\src\favicon.ico = client\src\favicon.ico
+		client\src\index.html = client\src\index.html
+		client\src\main.ts = client\src\main.ts
+		client\src\polyfills.ts = client\src\polyfills.ts
+		client\src\styles.css = client\src\styles.css
+		client\src\test.ts = client\src\test.ts
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "environments", "environments", "{295282F5-4993-4851-9CF1-CF1879DDD21F}"
+	ProjectSection(SolutionItems) = preProject
+		client\src\environments\environment.prod.ts = client\src\environments\environment.prod.ts
+		client\src\environments\environment.ts = client\src\environments\environment.ts
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "assets", "assets", "{AB62CF7D-63AA-4FFC-91B2-BFE116BCFEDC}"
+	ProjectSection(SolutionItems) = preProject
+		client\src\assets\.gitkeep = client\src\assets\.gitkeep
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "app", "app", "{2739DACB-5343-4A0E-B415-6EDC2CD72526}"
+	ProjectSection(SolutionItems) = preProject
+		client\src\app\app-routing.module.ts = client\src\app\app-routing.module.ts
+		client\src\app\app.component.css = client\src\app\app.component.css
+		client\src\app\app.component.html = client\src\app\app.component.html
+		client\src\app\app.component.spec.ts = client\src\app\app.component.spec.ts
+		client\src\app\app.component.ts = client\src\app\app.component.ts
+		client\src\app\app.module.ts = client\src\app\app.module.ts
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
-	GlobalSection(SolutionProperties) = preSolution
-		HideSolutionNode = FALSE
-	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{58F863BE-9CFE-4CF9-9725-C2FABAF40BCB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{58F863BE-9CFE-4CF9-9725-C2FABAF40BCB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{58F863BE-9CFE-4CF9-9725-C2FABAF40BCB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{58F863BE-9CFE-4CF9-9725-C2FABAF40BCB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{218CA575-2758-4A29-8483-A9D7FAB1F71A} = {CCB56524-E5BC-4E26-8DA3-0D27D5762056}
+		{295282F5-4993-4851-9CF1-CF1879DDD21F} = {218CA575-2758-4A29-8483-A9D7FAB1F71A}
+		{AB62CF7D-63AA-4FFC-91B2-BFE116BCFEDC} = {218CA575-2758-4A29-8483-A9D7FAB1F71A}
+		{2739DACB-5343-4A0E-B415-6EDC2CD72526} = {218CA575-2758-4A29-8483-A9D7FAB1F71A}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0ED9A8EB-E0F3-472F-A345-B4249ECC3C9F}
 	EndGlobalSection
 EndGlobal
