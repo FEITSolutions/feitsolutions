@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\DevOps\\Git-Repositories\\feitsolutions\\API\\API.csproj": {}
+    "C:\\DevOps\\Git-Repositories\\feitsolutions\\api\\API.csproj": {}
   },
   "projects": {
-    "C:\\DevOps\\Git-Repositories\\feitsolutions\\API\\API.csproj": {
+    "C:\\DevOps\\Git-Repositories\\feitsolutions\\api\\API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\DevOps\\Git-Repositories\\feitsolutions\\API\\API.csproj",
+        "projectUniqueName": "C:\\DevOps\\Git-Repositories\\feitsolutions\\api\\API.csproj",
         "projectName": "API",
-        "projectPath": "C:\\DevOps\\Git-Repositories\\feitsolutions\\API\\API.csproj",
+        "projectPath": "C:\\DevOps\\Git-Repositories\\feitsolutions\\api\\API.csproj",
         "packagesPath": "C:\\Users\\patri\\.nuget\\packages\\",
-        "outputPath": "C:\\DevOps\\Git-Repositories\\feitsolutions\\API\\obj\\",
+        "outputPath": "C:\\DevOps\\Git-Repositories\\feitsolutions\\api\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\patri\\AppData\\Roaming\\NuGet\\NuGet.Config",
