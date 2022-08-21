@@ -17,7 +17,7 @@ namespace API.Data.Migrations
                 defaultValue: new byte[0]);
 
             migrationBuilder.AddColumn<byte[]>(
-                name: "PaswordHash",
+                name: "PasswordHash",
                 table: "Users",
                 type: "varbinary(max)",
                 nullable: false,
