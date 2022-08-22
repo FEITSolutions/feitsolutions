@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\DevOps\\Git-Repositories\\feitsolutions\\api\\API.csproj": {}
+    "C:\\DevOps\\Git-Repositories\\feitsolutions\\API\\API.csproj": {}
   },
   "projects": {
-    "C:\\DevOps\\Git-Repositories\\feitsolutions\\api\\API.csproj": {
+    "C:\\DevOps\\Git-Repositories\\feitsolutions\\API\\API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\DevOps\\Git-Repositories\\feitsolutions\\api\\API.csproj",
+        "projectUniqueName": "C:\\DevOps\\Git-Repositories\\feitsolutions\\API\\API.csproj",
         "projectName": "API",
-        "projectPath": "C:\\DevOps\\Git-Repositories\\feitsolutions\\api\\API.csproj",
+        "projectPath": "C:\\DevOps\\Git-Repositories\\feitsolutions\\API\\API.csproj",
         "packagesPath": "C:\\Users\\patri\\.nuget\\packages\\",
-        "outputPath": "C:\\DevOps\\Git-Repositories\\feitsolutions\\api\\obj\\",
+        "outputPath": "C:\\DevOps\\Git-Repositories\\feitsolutions\\API\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\patri\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -40,6 +40,10 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[6.0.8, )"
+            },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
               "version": "[6.0.8, )"
