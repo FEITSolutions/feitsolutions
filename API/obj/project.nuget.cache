@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "PsVp1xNUKCEtuqQvtYmYIrGWrdinHg3HlJZiWwvUiPd1sB4NzMPONdUgDs933VrYyRI2WO2YYIO5HZjPw8I/rQ==",
+  "dgSpecHash": "yJjt5VkAvxsigj9QKFzOIaEzhJnYnRmqgg44OH5JSo8pZBRUDAsEXZvdhoxqkqJpKRmLlflpwZ/PS7zOd5raZQ==",
   "success": true,
-  "projectFilePath": "C:\\DevOps\\Git-Repositories\\feitsolutions\\API\\API.csproj",
+  "projectFilePath": "C:\\DevOps\\Git-Repositories\\feitsolutions\\api\\API.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\patri\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\patri\\.nuget\\packages\\microsoft.aspnetcore.authentication.jwtbearer\\6.0.8\\microsoft.aspnetcore.authentication.jwtbearer.6.0.8.nupkg.sha512",

@@ -51,6 +51,38 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "app", "app", "{2739DACB-534
 		client\src\app\app.module.ts = client\src\app\app.module.ts
 	EndProjectSection
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "nav", "nav", "{747F759F-1A2E-4222-A18C-99AB84808272}"
+	ProjectSection(SolutionItems) = preProject
+		client\src\app\nav\nav.component.css = client\src\app\nav\nav.component.css
+		client\src\app\nav\nav.component.html = client\src\app\nav\nav.component.html
+		client\src\app\nav\nav.component.ts = client\src\app\nav\nav.component.ts
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "_services", "_services", "{2F3683B8-5D48-475B-85A8-C4E46F862187}"
+	ProjectSection(SolutionItems) = preProject
+		client\src\app\services\account.service.spec.ts = client\src\app\services\account.service.spec.ts
+		client\src\app\services\account.service.ts = client\src\app\services\account.service.ts
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "_models", "_models", "{AB2BD37D-87CE-447E-9222-977D84AE394D}"
+	ProjectSection(SolutionItems) = preProject
+		client\src\app\_models\user.ts = client\src\app\_models\user.ts
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "home", "home", "{752CCB23-63DD-4152-A025-BD2018116B1D}"
+	ProjectSection(SolutionItems) = preProject
+		client\src\app\home\home.component.css = client\src\app\home\home.component.css
+		client\src\app\home\home.component.html = client\src\app\home\home.component.html
+		client\src\app\home\home.component.ts = client\src\app\home\home.component.ts
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "register", "register", "{3874CFB0-DB88-4EDC-A55D-1711E148BC07}"
+	ProjectSection(SolutionItems) = preProject
+		client\src\app\register\register.component.css = client\src\app\register\register.component.css
+		client\src\app\register\register.component.html = client\src\app\register\register.component.html
+		client\src\app\register\register.component.ts = client\src\app\register\register.component.ts
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -70,6 +102,11 @@ Global
 		{295282F5-4993-4851-9CF1-CF1879DDD21F} = {218CA575-2758-4A29-8483-A9D7FAB1F71A}
 		{AB62CF7D-63AA-4FFC-91B2-BFE116BCFEDC} = {218CA575-2758-4A29-8483-A9D7FAB1F71A}
 		{2739DACB-5343-4A0E-B415-6EDC2CD72526} = {218CA575-2758-4A29-8483-A9D7FAB1F71A}
+		{747F759F-1A2E-4222-A18C-99AB84808272} = {2739DACB-5343-4A0E-B415-6EDC2CD72526}
+		{2F3683B8-5D48-475B-85A8-C4E46F862187} = {2739DACB-5343-4A0E-B415-6EDC2CD72526}
+		{AB2BD37D-87CE-447E-9222-977D84AE394D} = {2739DACB-5343-4A0E-B415-6EDC2CD72526}
+		{752CCB23-63DD-4152-A025-BD2018116B1D} = {2739DACB-5343-4A0E-B415-6EDC2CD72526}
+		{3874CFB0-DB88-4EDC-A55D-1711E148BC07} = {2739DACB-5343-4A0E-B415-6EDC2CD72526}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {0ED9A8EB-E0F3-472F-A345-B4249ECC3C9F}
